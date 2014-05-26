@@ -1,0 +1,10 @@
+package Data;
+
+message Commodity
+{
+    required string name=1;
+    required int32 id=2;
+    required double price=3;
+    optional  double discount=4;
+    optional string description=5;
+}
